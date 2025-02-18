@@ -5,7 +5,7 @@ const Hero = () => {
 
   return (
     <section className='hero second-bg'>
-      <img src={dots} alt='Dots' className='dots' /> 
+            <img src={dots} alt='Dots' className='dots max-sm:hidden md:block' /> 
       <img src={dots} alt='Dots'  className='dots'/> 
       
       <div className='hero-text p-4 rounded text-white text-center'>
