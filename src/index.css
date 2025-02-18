@@ -2,20 +2,91 @@
 @tailwind components;
 @tailwind utilities;
 
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  direction: rtl;
+  font-family: "Cairo", serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+
+    direction: rtl;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Start Colors */
+.main-bg{
+  background-color: #006400;
 }
+
+.second-bg{
+  background-color: #333333;
+}
+
+.third-bg{
+  background-color: rgb(34 197 94);
+}
+
+.main-color{
+  color: #006400;
+}
+
+.second-color{
+  color: #333333;
+}
+
+.third-color{
+  color: rgb(34 197 94);
+}
+
+.hover-color{
+  color: #FF8C00;
+}
+
+::selection{
+  background-color: #FF8C00;
+}
+/* End Colors */
+/* Text Styling  */
+.header-text{
+  text-align: center;
+    font-size: 45px;
+    letter-spacing: 1px;
+}
+
+.second-text{
+      margin-top: 15px;
+    font-size: 18px;
+    color: #444;
+    word-spacing: 1px;
+    font-weight: normal;
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-template-rows: 30px 0;
+    grid-gap: 20px;
+    align-items: center;
+}
+
+.second-text::before{
+  content: " ";
+    display: block;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    height: 5px;
+    background-color: #f8f8f8;
+}
+
+.second-text::after{
+  content: " ";
+    display: block;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    height: 5px;
+    background-color: #f8f8f8;
+}
+/* Text Styling  */
+
+
 
 .App {
   text-align: center;

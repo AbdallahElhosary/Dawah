@@ -1,0 +1,31 @@
+.tracks-holder {
+    .track {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px 5px 0 0;
+
+        border-bottom: 3px solid #006400;
+
+        a {
+            color: black;
+            font-weight: bold;
+            font-size: 18px;
+            display: block;
+            width: fit-content;
+            margin: 15px auto 0;
+            transition: 0.3s;
+        }
+
+        .title {
+            transition: 0.3s;
+
+        }
+        
+        .title:hover {
+            color: green;
+        }
+    }
+}
