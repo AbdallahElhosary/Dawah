@@ -1,16 +1,16 @@
 .articles-holder{
     img{
-        max-width: 100%;
+        width: 100%;
     height: auto;
     }
 
-    a{
-            color: black;
+    title{
+    color: black;
     transition: 0.3s;
     font-weight: bold;
     line-height: 1.6;
-    display: block;
-    width: fit-content;
+    // display: block;
+    width: 100%;
     padding: 12px;
     }
 

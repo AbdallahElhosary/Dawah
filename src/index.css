@@ -14,6 +14,13 @@ body {
     direction: rtl;
 }
 
+:root{
+  --main-color :#006400;
+  --second-color : #333333;
+  --third-color : rgb(34 197 94);
+  --fourth-color:#FF8C00;
+}
+
 /* Start Colors */
 .main-bg{
   background-color: #006400;
